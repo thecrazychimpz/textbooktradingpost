@@ -1,10 +1,14 @@
 Rails.application.routes.draw do
+  resources :pins
+
   root 'page#index'
   get '/about'=>"page#about"
   get '/buy'=>"page#buy"
   get '/sell'=>"page#sell"
   get '/trade'=>"page#trade"
   get '/myprofile'=>"page#myprofile"
+  get '/bobcat'=>"page#bobcat"
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

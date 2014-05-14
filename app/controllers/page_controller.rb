@@ -16,5 +16,7 @@ class PageController < ApplicationController
 
   def myprofile
   end
-  
+
+  def bobcat
+  end
 end
