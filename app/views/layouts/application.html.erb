@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+<div class="container">
 <head>
   <title>Textbooktradingpost</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -8,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+
+<body>
 <nav class="navbar navbar-default" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="navbar-header">
@@ -29,7 +30,7 @@
   </div><!-- /.navbar-collapse -->
 </nav>
 
-<body>
+  
 <a href="/">Home</a>
 <a href="/about">About</a>
 <a href="/buy">Buy</a>
@@ -43,4 +44,6 @@
 </div>
 
 </body>
-</html>
+<%= yield %>
+</div>
+
