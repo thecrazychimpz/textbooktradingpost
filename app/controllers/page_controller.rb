@@ -17,6 +17,13 @@ class PageController < ApplicationController
   def myprofile
   end
 
-  def bobcat
+  def calculus
   end
+
+  def physics
+  end
+
+  def viewpoints
+  end
+  
 end

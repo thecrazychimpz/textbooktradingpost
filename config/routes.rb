@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'page/index'
+
   resources :pins
 
   root 'page#index'
@@ -8,6 +10,9 @@ Rails.application.routes.draw do
   get '/trade'=>"page#trade"
   get '/myprofile'=>"page#myprofile"
   get '/bobcat'=>"page#bobcat"
+  get '/calculus'=>"page#calculus"
+  get '/physics'=>"page#physics"
+  get '/viewpoints'=>"page#viewpoints"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
