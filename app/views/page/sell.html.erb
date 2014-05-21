@@ -1,48 +1,49 @@
-<div class="jumbotron">
+<body>
+<div class="jumbotron shortjumbotron">
+  <div class="container">
   <h1>Sell</h1>
   <p>Welcome to the "Sell" page! To post your textbook for sale, simply follow the steps below. </p>
 </div>
+</div>
 
-
-    <p>
-  <div class="col-lg-10">
-    <input type="text" class="form-control" placeholder="Enter the name, edition, and author(s) of your book...">
+<div class="container">
+<form class="form-horizontal">
+  <div class="form-group col-lg-10">
+      <input type="text" class="form-control" placeholder="Enter the name, edition, and author(s) of your book...">
   </div>
-</p>
 
-<p>
-  <div class="col-lg-10">
+  <div class="form-group col-lg-10">
     <input type="text" class="form-control" placeholder="Enter your asking price...">
   </div>
-</p>
 
-<p>
-  <div class="col-lg-10">
+  <div class="form-group col-lg-10">
     <input type="text" class="form-control" placeholder="Enter miscellaneous information here, such as the book's condition and whether or not the price is negotiable...">
   </div>
-</p>
-
-
-<p>
-<button type="button" class="btn btn-warning btn-sm">
+  <div class="form-group col-lg-10">
+    <button type="button" class="btn btn-warning btn-sm">
   <span class="glyphicon glyphicon-camera"></span> Upload Photo
 </button>
-</p>
+</div>
 
+</form>
 
-<center><p>
-<a href="/myprofile"><button type="button" class="btn btn-warning btn-lg">
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <a href="/myprofile"><button type="button" class="btn btn-warning btn-lg">
  Post
 </button></a>
-</p>
-</center>
+</div>
+</div>
+
+</body>
 
 <style>
 .btn-warning{
     background-color: black;
     border-color: black;
     color: white;
-}
+    
+  }
 .jumbotron{
     background-color:#4C0009;
     color: white;
@@ -50,5 +51,8 @@
 }
 .form-control{
     border-color: black;
-}
+  }
+
+
+
 </style>
